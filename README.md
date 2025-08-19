@@ -17,7 +17,7 @@ This app allows users to monitor stock prices, visualize trends, and receive rea
 
 ## 🛠️ Installation
 
-## 1. Clone the Repository
+### 1. Clone the Repository
 git clone https://github.com/<your-username>/stock-price-tracker.git
 cd stock-price-tracker
 2. Create & Activate a Virtual Environment
@@ -39,8 +39,7 @@ streamlit run stock_tracker.py
 ---
 
 ## 📖 Walkthrough of the Code
-##1. Imports & Environment Setup
-python
+### 1. Imports & Environment Setup
 
 import yfinance as yf
 import pandas as pd
@@ -75,10 +74,13 @@ Dropdown menu for popular stocks.
 Manual input for custom stock symbols.
 
 Displays:
-✅ Current stock price
-✅ Price trend (last 7 days)
-✅ Stock history in DataFrame
-✅ Alerts if target price reached
+- ✅ Current stock price
+
+- ✅ Price trend (last 7 days)
+
+- ✅ Stock history in DataFrame
+
+- ✅ Alerts if target price reached
 
 ## 4. Main Function
 Runs the app when executed:
@@ -86,6 +88,9 @@ Runs the app when executed:
 
 if __name__ == "__main__":
     main()
+
+---
+
 ## ⚠️ Disclaimer
 This project is for educational purposes only.
 It does not provide financial advice or guarantee data accuracy.
@@ -94,22 +99,20 @@ Always verify financial information with reliable sources before making investme
 ---
 
 
-##✅ Requirements
+## ✅ Requirements
 Example requirements.txt:
 
-nginx
-Copy
-Edit
-yfinance
-pandas
-streamlit
-requests
-python-dotenv
+
+- yfinance
+- pandas
+- streamlit
+- requests
+- python-dotenv
 
 ---
 
-##⚠️ Notes
-On requirements.txt
+## ⚠️ Notes
+### On requirements.txt
 
 This file lists all dependencies required to run the project.
 
@@ -119,11 +122,11 @@ Always use a virtual environment when installing dependencies.
 
 This project is for educational purposes only and should not be used for real-world financial decisions.
 
-On .env
+### On .env
 
 This file is used to securely store sensitive information such as API keys and Slack Webhook URLs.
 
-⚠️ Never share or commit your .env file to GitHub or any public repository.
+### ⚠️ Never share or commit your .env file to GitHub or any public repository.
 
 Replace the placeholder SLACK_WEBHOOK_URL with your own webhook for alerts.
 
